@@ -80,7 +80,7 @@ namespace Homework_13
         Console.Write(item + " ");
       }
       Console.WriteLine();
-      Console.Write("Введите, как вы хотите добавить элемент в массив: ");
+      Console.Write("Введите, как вы хотите добавить элемент в массив(в начало/ в конец/ по индексу): ");
       string identificator = Console.ReadLine();
       if (identificator == "в начало")
       {
